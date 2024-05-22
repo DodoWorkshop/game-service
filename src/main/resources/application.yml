@@ -17,6 +17,7 @@ spring:
 
   data:
     mongodb:
-      uri: ${DB_URL:mongodb://localhost:27017}
-      database: ${DB_NAME:game_service_db}
+      #uri: ${DB_URL:mongodb://localhost:27017}ee
+      uri: mongodb+srv://dodoworkshop:9AvL6YRxytDEJRDZ@dodoworkshop.ere0eew.mongodb.net/game_service_db?retryWrites=true&w=majority&appName=DodoWorkshop
+
       auto-index-creation: true
