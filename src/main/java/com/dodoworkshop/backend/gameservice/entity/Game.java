@@ -17,7 +17,6 @@ public class Game {
 	@Id
 	private ObjectId id;
 
-	@NotBlank
 	private String name;
 
 	private String description;
